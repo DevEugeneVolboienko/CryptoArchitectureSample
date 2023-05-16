@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BasicText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/text_basic_light</item>
+        <item name="android:textSize">@dimen/text_32</item>
+    </style>
+
+    <style name="BasicText.Bold" parent="BasicText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BasicText.Title" parent="BasicText.Bold">
+        <item name="android:textSize">@dimen/text_48</item>
+    </style>
+
+    <style name="BasicText.Subtitle" parent="BasicText">
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

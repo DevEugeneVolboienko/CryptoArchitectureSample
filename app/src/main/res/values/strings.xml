@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ArchitectureExample</string>
+    <string name="crypto_name">${%s}</string>
+</resources>
